@@ -1,0 +1,58 @@
+@mixin h1 {
+    color: var(--color__text--lighter);
+    font-size: var(--font-size--main-title);
+    font-weight: var(--fontweight--regular);
+    line-height: var(--lineheight--md);
+}
+
+@mixin h2 {
+    color: var(--color__text--lighter);
+    font-size: var(--font-size--secondary-title);
+    font-weight: var(--fontweight--light);
+    line-height: var(--lineheight--md);
+}
+
+@mixin h3 {
+    color: var(--color__text--lighter);
+    font-size: var(--font-size--sub-title);
+    font-weight: var(--fontweight--light);
+    line-height: var(--lineheight--md);
+}
+
+@mixin h4 {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+@mixin paragraph {
+    font-family: Lato;
+    font-size: 1.125em;
+    line-height: 1.25;
+}
+
+@mixin breakpoint($breakpoint) {
+    @if $breakpoint==desktop {
+        @media (min-width: 1200px) {
+            @content ;
+        }
+    }
+
+    @else if $breakpoint==laptop {
+        @media (min-width: 992px) {
+            @content ;
+        }
+    }
+
+    @else if $breakpoint==tablet {
+        @media (min-width: 768px) {
+            @content ;
+        }
+    }
+
+    @else if $breakpoint==mobile {
+        @media (min-width: 480px) {
+            @content ;
+        }
+    }
+}

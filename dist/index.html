@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Portfolio of Patricia Feio, Front-End Developer">
+    <meta name="keywords" content="Portfolio, Patricia, Feio, Developer, Front-End, HTML, CSS, Javascript, Webdesign">
+    <meta name="author" content="Patricia Feio">
+    <title>Patricia Feio | Front-End Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!--  #MENU  -->
+
+        <div id="menu__mobile" class="menu__mobile menu__mobile--overlay">
+
+            <div class="menu__mobile--right">
+                <a href="javascript:void(0)" class="menu__mobile--closebtn" onclick="closeNav()" aria-label="Close mobile menu">&times;</a>
+            </div>
+
+            <ul class="menu__mobile-list" onclick="closeNav()">
+                <li><a class="menu__mobile-list-link" href="#welcome-section">HOME</a></li>
+                <li><a class="menu__mobile-list-link" href="#profile">ABOUT</a></li>
+                <li><a class="menu__mobile-list-link" href="#projects">PROJECTS</a></li>
+                <li><a class="menu__mobile-list-link" href="#contact">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <div class="menu__mobile-navbar">
+
+            <div class="menu__mobile-navbar--left">
+
+                <a href="#welcome-section">
+                    <img class="logo--white" alt="logotype" src="img/logoWhite.svg">
+                </a>
+            </div>
+
+            <div class="menu__mobile-navbar--right">
+                <span class="menu__mobile--toggler" onclick="openNav()">&#x2630;</span>
+            </div>
+
+        </div>
+
+        <div id="navbar">
+
+            <a class="logo" href="#welcome-section">
+                <img class="logo--white" alt="logotype" src="img/logoWhite.svg">
+            </a>
+
+            <ul class="navbar__menu-list">
+                <li class="navbar__menu-list-item navbar__menu-list--first"><a class="navbar__menu-list-link" href="#profile">About</a></li>
+                <li class="navbar__menu-list-item"><a class="navbar__menu-list-link" href="#projects">Projects</a></li>
+                <li class="navbar__menu-list-item"><a class="navbar__menu-list-link" href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="section_wrapper">
+
+            <!--  #WELCOME SECTION  -->
+
+            <div id="welcome-section" class="welcome">
+
+                <div class="welcome__text">
+
+                    <h1 class="welcome__text--h1">Hi! I'm <span class="welcome__text--name">Patrícia</span>,</h1>
+
+                    <h3 class="welcome__text--h3">a Front-End Developer from Lisbon, Portugal</h3>
+
+                    <p class="welcome__text--p"><a class="welcome__text--link" href="#contact">Hire Me</a></p>
+
+                </div>
+
+                <div class="welcome__background">
+
+                    <div class="welcome__background-photo">
+                        <img class="welcome__background-photo--img animated fadeOut" src="img/background-photo.png" alt="patricia photo">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!--  #PROFILE  -->
+
+            <div id="profile" class="profile">
+
+                <h2 class="profile__text--h2">About</h2>
+
+                <p class="profile__text-paragraph--big">My name is Patrícia Feio and I just finished a one year Web
+                    Design
+                    course in Lisbon School of Design. I'm passionate about front-end development and I'm currently
+                    seeking
+                    an opportunity where I can develop my skills and learn from others.</p>
+
+
+                <p class="profile__text-paragraph">When I decided to make a career change, I wanted
+                    something challenging and creative in the tech field. During my Web Design course I discovered the
+                    magic world of web development, in particular front-end development. I'm interested in responsive
+                    front-end development with special attention for mobile first approach.
+
+                    <p class="profile__text-paragraph">I'm curious and I love to learn. I also love to read and to
+                        watch thriller/detective/noir and spine-chilling films. </p>
+
+                </p>
+
+                <div class="profile__technical-skills">
+
+                    <h2 class="profile__text--h2">Technical Skills</h2>
+
+                    <div class="profile__skills-list">
+
+                        <ul class="profile__skills-list1">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                        </ul>
+
+                        <ul class="profile__skills-list1">
+                            <li>Sass</li>
+                            <li>Git</li>
+                            <li>Github</li>
+                            <li>Basic MySQL</li>
+                            <li>Basic PHP</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="profile__personal-skills">
+
+                    <h2 class="profile__text--h2">Personal Skills</h2>
+
+                    <div class="profile__skills-list">
+
+                        <ul class="profile__skills-list1">
+                            <li>Dedication</li>
+                            <li>Commitment</li>
+                            <li>Communication</li>
+                        </ul>
+
+                        <ul class="profile__skills-list1">
+                            <li>Teamwork</li>
+                            <li>Open-Mindedness</li>
+                            <li>Problem Solving</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--  #PROJECTS  -->
+
+            <div id="projects" class="projects">
+
+                <h2 class="projects__text--h2">Projects</h2>
+
+                <div class="projects__list">
+
+                    <div class="project-title">
+                        <a href="https://s.codepen.io/pfwdpro/debug/QBGqoE/ZoMBaKWBbdWk" target="blank">
+                            <img class="project-title-image" src="img/tribute-page.jpg">
+                            <div class="project-title-title">
+                                <h3 class="project-title-title--h3">Tribute Page</h3>
+                                <p class="project-title-title--p">Responsive Web Design Project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-title">
+                        <a href="https://s.codepen.io/pfwdpro/debug/OwpdLO/ZoABaKWBbmWr" target="blank">
+                            <img class="project-title-image" src="img/survey-form.jpg">
+                            <div class="project-title-title">
+                                <h3 class="project-title-title--h3">Survey Form</h3>
+                                <p class="project-title-title--p">Responsive Web Design Project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-title">
+                        <a href="https://s.codepen.io/pfwdpro/debug/mjBzGP/GnMnbNeBdOjM" target="blank">
+                            <img class="project-title-image" src="img/product-landing-page.jpg">
+                            <div class="project-title-title">
+                                <h3 class="project-title-title--h3">Product Landing Page</h3>
+                                <p class="project-title-title--p">Responsive Web Design Project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-title">
+                        <a href="https://s.codepen.io/pfwdpro/debug/pxymwy/wQrPoNpYLQWM" target="blank">
+                            <img class="project-title-image" src="img/technical-documentation-page.jpg">
+                            <div class="project-title-title">
+                                <h3 class="project-title-title--h3">Tecnical Documentation Page</h3>
+                                <p class="project-title-title--p">Responsive Web Design Project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--  #CONTACT  -->
+
+            <div id="contact" class="contact">
+
+                <h2 class="contact__text--h2">Contact</h2>
+
+                <div class="contact__wrapper">
+
+                    <img class="contact__photo" src="img/contact-bw-photo.jpg">
+
+                    <div class="contact__text">
+
+                        <p class="contact__text--main-paragraph">Do you want to know more
+                            about my
+                            work? Or even talk about a future partnership? Feel free to contact me.</p>
+
+                        <div>
+
+                            <p class="contact__text--paragraph">Write me an email:</p>
+                            <p class="contact__text--paragraph contact__text--paragraph-space-bottom"><a class="email contact__text--paragraph--border-bottom"
+                                    href="mailto:patriciafeio@gmail.com" target="blank">patriciafeio@gmail.com</a></p>
+
+                            <p class="contact__text--paragraph">You can also find me:</p>
+
+                            <p class="contact__text--paragraph">
+                                <a id="profile-link" class="contact__text--paragraph contact__text--paragraph--border-bottom"
+                                    href="https://github.com/patfeio" target="blank">Github</a></p>
+                            <p class="contact__text--paragraph">
+                                <a id="profile-link" class="contact__text--paragraph contact__text--paragraph--border-bottom"
+                                    href="https://www.linkedin.com/in/patriciafeio/" target="blank">LinkedIn</a>
+                            </p>
+                            <p class="contact__text--paragraph">
+                                <a id="profile-link" class="contact__text--paragraph contact__text--paragraph--border-bottom"
+                                    href="https://twitter.com/p_feyo" target="blank">Twitter</a></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <p><a class="footer__email" href="mailto:patriciafeio@gmail.com" target="blank">patriciafeio@gmail.com</a></p>
+
+            <!-- social media links -->
+            <ul class="footer__social">
+                <li><a class="footer__social--list-link no-margin" href="https://github.com/patfeio" target="blank">Github</a></li>
+                <li><a class="footer__social--list-link" href="https://www.linkedin.com/in/patriciafeio/" target="blank">LinkedIn</a></li>
+                <li><a class="footer__social--list-link" href="https://twitter.com/p_feyo" target="blank">Twitter</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>

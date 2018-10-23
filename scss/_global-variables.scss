@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:400,700');
+
+:root {
+
+    // Color
+
+    //Theme colors
+    --color__primary--light: #dedede;
+    --color__primary--dark: #0a0a0a;
+    --color__primary--hover: #c80000;
+
+    // Text color
+    --color__primary--text--light: #dedede;
+    --color__primary--text--dark: #0a0a0a;
+    --color__text--lighter: #fff;
+
+    // Typography
+
+    // Font family
+    --fontfamily__paragraph--sans-serif: 'Open Sans', -apple-system, 'Helvetica Neue', 'Trebuchet MS', sans-serif;
+
+    --fontfamily--sans-serif: 'Josefin Sans', -apple-system, 'Helvetica Neue', 'Trebuchet MS', sans-serif;
+
+    // Font size
+    --font-size--base: 1.125rem; // 18px
+    --font-size--sub-title: 1.375rem; // 22px
+    --font-size--secondary-title: 1.625rem; // 26px
+    --font-size--main-title: 2rem; // 32px
+    --font-size--hero-title: 3rem; // 48px
+    --font-size--big-hero-title: 4rem;
+
+    // line height
+    --lineheight--sm: 1.1;
+    --lineheight--md: 1.5;
+    --lineheight--lg: 2;
+
+    // Font weight
+    --fontweight--light: 300;
+    --fontweight--regular: 400;
+    --fontweight--bold: 700;
+
+    // Links
+    --link__color: #fafafa;
+    --link__text-decoration: none;
+    --link--transition: color 0.25 ease;
+    --link__color--hover: #c80000;
+    --link__text-decoration--hover: underline;
+    --link__color--focus: #fafafa;
+
+}
