@@ -20,14 +20,14 @@
 }
 
 @mixin h4 {
-    font-size: 1.125em;
-    font-weight: 400;
+    font-size: var(--font-size--base);
+    font-weight: var(--fontweight--regular);
     line-height: 1.25;
 }
 
-@mixin paragraph {
+@mixin p {
     font-family: Lato;
-    font-size: 1.125em;
+    font-size: var(--font-size--base);
     line-height: 1.25;
 }
 
