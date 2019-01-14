@@ -433,7 +433,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    transition: all 1s;
+    transition: all 0.5s;
     //transition-delay: 0.5s;
 
     @include breakpoint(tablet) {
