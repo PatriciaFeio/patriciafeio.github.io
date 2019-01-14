@@ -524,8 +524,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  transition: all 1s;
-  transition-delay: 0.5s; }
+  transition: all 1s; }
   @media (min-width: 768px) {
     .project-title:hover {
       opacity: 1;
