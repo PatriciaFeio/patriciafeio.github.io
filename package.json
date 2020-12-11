@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "scss": "node-sass -w scss/ -o css/ --recursive",
-    "watch": "onchange scss -- npm run scss"
+    "live-server": "live-server",
+    "watch": "onchange scss -- npm run scss",
+    "start": "\"concurrently \"npm run live-server\" \"npm run watch\""
   },
   "author": "Patricia Feio",
   "license": "MIT",
   "dependencies": {
+    "concurrently": "^5.3.0",
+    "live-server": "1.2.1",
     "merge": "^1.2.1",
     "node-sass": "^4.14.1"
   },
