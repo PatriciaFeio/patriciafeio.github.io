@@ -16,7 +16,7 @@
     "glob-parent": "^6.0.0",
     "live-server": "^1.1.0",
     "merge": "^2.1.1",
-    "node-sass": "^7.0.0"
+    "node-sass": "^7.0.3"
   },
   "devDependencies": {
     "onchange": "^7.1.0",
